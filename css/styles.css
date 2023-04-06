@@ -191,7 +191,7 @@ ul {
   letter-spacing: 0.02em;
   margin: auto;
   margin-bottom: 48px;
-  width: 496px;
+  max-width: 496px;
 }
 
 .title-btn {
@@ -226,7 +226,7 @@ ul {
 }
 
 .about-list-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   margin-right: 24px;
 }
 
@@ -271,6 +271,7 @@ ul {
   margin-right: 24px;
 }
 .content-img {
+  display: block;
 }
 
 .content-list {
@@ -301,6 +302,7 @@ ul {
   margin-right: 24px;
 }
 .team-img {
+  display: block;
 }
 .team-subtitle {
   color: var(--title-text-color);
@@ -362,6 +364,7 @@ ul {
 
 .filter-buttons {
   list-style: none;
+  padding: 96px 120px;
 }
 
 /* .filter-title {
@@ -370,6 +373,7 @@ ul {
 .filter-list-btn {
   display: flex;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .filter-btn {
@@ -384,21 +388,22 @@ ul {
   border-radius: 4px;
   text-align: center;
   border: 1px solid var(--accent);
-  margin-bottom: 72px;
 }
 
 .filter-btn-item {
   text-align: center;
-}
-
-.filter-list-btn .filter-btn-item:not(:last-child) {
   margin-right: 24px;
 }
+
+/* .filter-list-btn .filter-btn-item:not(:last-child) {
+  margin-right: 24px;
+} */
 
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--white-background-color);
   background-color: var(--btn-active-color);
+  border: 1px solid transparent;
   cursor: pointer;
 }
 
@@ -430,19 +435,18 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
   margin-bottom: 8px;
-  padding-left: 16px;
 }
 .filter-text {
   color: var(--body-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 16px;
 }
 .border-text {
   border: 1px solid var(--accent);
+  border-top: none;
+  padding: 32px 16px;
 }
 
 .img {
