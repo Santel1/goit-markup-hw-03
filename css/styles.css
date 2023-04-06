@@ -225,6 +225,9 @@ ul {
 .about-title {
 }
 
+.company-list {
+}
+
 .about-list-item {
   width: calc((100% - 72px) / 4);
   margin-right: 24px;
@@ -410,11 +413,13 @@ ul {
 .filter-list-img {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .filter-item-img {
   width: 360px;
-  margin-right: 24px;
-  margin-bottom: 48px;
+  /* margin-right: 24px;
+  margin-bottom: 48px; */
 }
 /* .filter-item-img {
   width: calc((100% - 48px) / 3);
