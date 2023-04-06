@@ -19,7 +19,52 @@ body {
   list-style: none;
 }
 
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  list-style: none;
+}
+/* Reset start */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Reset end  */
+
+/*  */
 /* Header nav sectioon */
+/*  */
 
 .nav {
   background-color: var(--white-background-color);
@@ -69,7 +114,23 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-/* Contacts */
+
+/* Site nav */
+
+.site-nav {
+  display: flex;
+}
+.site-nav .site-nav-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.site-nav .link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+/* Contacts nav */
 
 .address-contacts:hover,
 .address-contacts:focus {
@@ -87,11 +148,22 @@ body {
 .address {
   font-style: normal;
 }
+.contact-nav {
+  display: flex;
+}
+.contact-nav .contact-nav-item:not(:last-child) {
+  margin-right: 40px;
+}
 
-/* Title */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+/* Hero */
 
 .title {
   background-color: var(--dark-background-color);
+  text-align: center;
 }
 
 .title-text {
@@ -101,6 +173,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
 }
 
 .title-btn {
@@ -111,6 +184,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-family: "Roboto", sans-serif;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .title-btn:hover,
@@ -135,6 +210,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .about-text {
   font-size: 16px;
@@ -153,6 +229,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .content-item {
@@ -172,6 +249,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .team-item {
@@ -185,6 +263,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .team-text {
   font-size: 16px;
@@ -211,6 +290,7 @@ body {
   color: var(--section-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  margin-top: 17.5px;
 }
 
 /*                  */
