@@ -274,7 +274,6 @@ ul {
 }
 
 .content-item {
-  margin-right: 24px;
 }
 .content-img {
   display: block;
@@ -282,6 +281,7 @@ ul {
 
 .content-list {
   display: flex;
+  gap: 24px;
 }
 
 /* .content-list .content-item:not(:last-child) {
@@ -305,7 +305,6 @@ ul {
 
 .team-item {
   background-color: var(--white-background-color);
-  margin-right: 24px;
 }
 .team-img {
   display: block;
@@ -327,6 +326,7 @@ ul {
 }
 .team-list {
   display: flex;
+  gap: 24px;
 }
 
 .team-text-container {
