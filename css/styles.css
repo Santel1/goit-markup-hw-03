@@ -87,7 +87,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  margin-right: 76px;
 }
 
 .logo-second-color {
@@ -99,6 +98,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.logo-header {
+  margin-right: 76px;
 }
 
 .logo:hover,
@@ -226,11 +229,11 @@ ul {
 }
 
 .company-list {
+  gap: 24px;
 }
 
 .about-list-item {
   width: calc((100% - 72px) / 4);
-  margin-right: 24px;
 }
 
 /* .company-list .about-list-item:not(:last-child) {
@@ -341,7 +344,7 @@ ul {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.logo {
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
