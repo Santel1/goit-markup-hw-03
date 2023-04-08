@@ -128,13 +128,13 @@ ul {
 
 .site-nav {
   display: flex;
+  gap: 40px;
 }
 .site-nav-item {
-  margin-right: 40px;
 }
-.site-nav .site-nav-item:last-child {
+/* .site-nav .site-nav-item:last-child {
   margin-right: 0px;
-}
+} */
 
 .site-nav .link {
   display: block;
@@ -164,15 +164,15 @@ ul {
 }
 .contact-nav {
   display: flex;
+  gap: 40px;
 }
 
 .contact-nav-item {
-  margin-right: 40px;
 }
 
-.contact-nav .contact-nav-item:last-child {
+/* .contact-nav .contact-nav-item:last-child {
   margin-right: 0px;
-}
+} */
 
 .main-nav {
   display: flex;
