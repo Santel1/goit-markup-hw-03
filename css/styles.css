@@ -382,6 +382,7 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
+  gap: 24px;
 }
 
 .filter-btn {
@@ -400,7 +401,6 @@ ul {
 
 .filter-btn-item {
   text-align: center;
-  margin-right: 24px;
 }
 
 /* .filter-list-btn .filter-btn-item:not(:last-child) {
